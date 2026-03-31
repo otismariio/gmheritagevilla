@@ -1,0 +1,39 @@
+<svg width="560" height="160" viewBox="0 0 560 160" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      fill: #7A0000; /* refined deep red */
+      font-weight: 700;
+      letter-spacing: 3px;
+    }
+    .subtitle {
+      font-family: 'Great Vibes', cursive;
+      font-size: 34px;
+      fill: #B8964F; /* slightly darker gold */
+    }
+    .icon {
+      stroke: #B8964F;
+      stroke-width: 2.2;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+
+  <!-- Airbnb-style Minimal House Icon -->
+  <g transform="translate(35,38)">
+    <!-- smooth roof -->
+    <path class="icon" d="M20 55 Q50 20 80 55" />
+    
+    <!-- base -->
+    <rect class="icon" x="30" y="55" width="40" height="30" rx="10"/>
+    
+    <!-- door (minimal hint) -->
+    <line class="icon" x1="50" y1="65" x2="50" y2="85"/>
+  </g>
+
+  <!-- Text -->
+  <text x="140" y="75" class="title">G &amp; M</text>
+  <text x="140" y="120" class="subtitle">Heritage Villa</text>
+</svg>

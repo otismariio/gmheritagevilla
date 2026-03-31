@@ -1,0 +1,34 @@
+<svg width="560" height="160" viewBox="0 0 560 160" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font-family: 'Playfair Display', serif;
+      font-size: 48px;
+      fill: #8B0000; /* rich deep red */
+      font-weight: 700;
+      letter-spacing: 3px;
+    }
+    .subtitle {
+      font-family: 'Great Vibes', cursive;
+      font-size: 36px;
+      fill: #C8A96A; /* luxury gold */
+    }
+    .icon {
+      stroke: #C8A96A;
+      stroke-width: 2;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+
+  <!-- Elegant Modern House Icon -->
+  <g transform="translate(30,35)">
+    <path class="icon" d="M15 55 L50 20 L85 55" />
+    <rect class="icon" x="25" y="55" width="50" height="35" rx="6"/>
+    <line class="icon" x1="50" y1="55" x2="50" y2="90"/>
+  </g>
+
+  <!-- Text -->
+  <text x="140" y="75" class="title">G &amp; M</text>
+  <text x="140" y="120" class="subtitle">Heritage Villa</text>
+</svg>
