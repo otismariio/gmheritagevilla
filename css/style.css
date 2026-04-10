@@ -534,6 +534,8 @@ button {
 
 .our_room .room .room_img figure {
      margin: 0;
+     height: 300px;        /* add this */
+     object-fit: cover;    /* add this (VERY IMPORTANT) */
 }
 
 .our_room .room .room_img figure img {
