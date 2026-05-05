@@ -991,3 +991,27 @@ line-height: 35px;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
+
+
+/* The Payment Highlighter */
+
+
+  .attention-text {
+    background-color: #b74e26;
+    color: #000;  
+    display: inline-block;
+    font-size: 24px;    
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #b01616;
+    border-radius: 8px;
+    animation: pulse 1.5s infinite;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.attention-text:hover {
+    background-color: #fff;
+    color: #1671B0;
+    border-color: #b74e26;
+}
